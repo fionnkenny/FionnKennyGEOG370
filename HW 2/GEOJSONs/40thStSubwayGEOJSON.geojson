@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "40thStSubwayGEOJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "40th Street 7 Train Stop" }, "geometry": { "type": "Point", "coordinates": [ -73.924249738706763, 40.743799703392796 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "96th Street 6 Train Stop" }, "geometry": { "type": "Point", "coordinates": [ -73.950870223957423, 40.785900893309453 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "CarnegieHillGEOJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "Carnegie Hill" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -73.955748694701455, 40.787874403050481 ], [ -73.949274399505242, 40.785189229027225 ], [ -73.95397548009359, 40.778788085652167 ], [ -73.96040853774079, 40.781535969109527 ], [ -73.955748694701455, 40.787874403050481 ] ] ] ] } }
+]
+}
