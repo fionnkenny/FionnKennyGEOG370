@@ -12,12 +12,12 @@
     <p>I started by installing the Indicatrix mapper plugin in QGIS so that I could display Tissot's Indicatrix cirlces and demonstrate the distortions of the various projections. Then, I selected various projections by searching by ESPG and making print layouts of each.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection seems to preserve direction, and mostly preserves shape, however it does not preserve size, with polar exremities being enlarged and compressed vertically</h3>
     <a href="./Worldprojections 2/maps/4326.png">
     <img src="./Worldprojections 2/maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection results in a non-rectangular map, so while it does not preserve direction, it does a better job than cylindrical projections of preserving area/size.</h3>
     <a href="./Worldprojections 2/maps/54043.png">
     <img src="./Worldprojections 2/maps/54043.png" alt="Aitoff" width='500px'>
     </a>
@@ -25,37 +25,37 @@
     <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
     <h2>Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Mercator map projection is a cylindrical map. It preserves angles and directions, making it useful for navigation, but distorts the size of objects, making countries near the poles appear larger and near the equator smaller.</h3>
     <a href="./MAP/EPSG_3857(1).png">
     <img src="./MAP/EPSG_3857(1).png" alt="Mercator" width='500px'>
     </a>
     <h2>Sphere Winkel Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection does a decent job of preserving both size and shape, however it does not preserve angles/direction, becoming more distorted the further away from the center of the map.</h3>
     <a href="./MAP/ESRI_53018(1).png">
     <img src="./MAP/ESRI_53018(1).png" alt="Sphere_Winkel" width='500px'>
     </a>
     <h2>Cylindrical Equal Area Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This job preserves area, distance, and direction, however shape is not preserved, becoming more distorted the further from the equator</h3>
     <a href="./MAP/ESRI_54034.png">
     <img src="./MAP/ESRI_54034.png" alt="Cylindircal_Equal_Area" width='500px'>
     </a>
     <h2>Equidistant Conic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection preserves distance and direction, however only preserves them in the North/South Axis, and it overestimates area the further from the North Pole.</h3>
     <a href="./MAP/ESRI_54027.png">
     <img src="./MAP/ESRI_54027.png" alt="Equidistant_Conic" width='500px'>
     </a>
     <h2>North Pole Azimuthal Equidistant Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This porjection is very similar to the previous one. It preserves distance and direction on only the North/South Axis, and increases the size of areas in the Southern Hemisphere.</h3>
     <a href="./MAP/ESRI_ 102016.png">
     <img src="./MAP/ESRI_ 102016.png" alt="Azimuthal" width='500px'>
     </a>
     <h2>Craster Parabolic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection preserves distance along the North/South Axis and direction along the East/West Axis. It preserves shape and size realtively well except at the extremities of the map.</h3>
     <a href="./MAP/ESRI_54046.png">
     <img src="./MAP/ESRI_54046.png" alt="Craster_Parabolic" width='500px'>
     </a>
     <h2>Robinson Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map is a good overall map. It does not entirely preserve any of the four components of distance, direction, shape or area, but it strikes a balance between all four.</h3>
     <a href="./MAP/ESRI_54030.png">
     <img src="./MAP/ESRI_54030.png" alt="Robinson" width='500px'>
     </a>
