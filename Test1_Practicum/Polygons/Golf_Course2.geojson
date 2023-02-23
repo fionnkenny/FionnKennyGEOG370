@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Golf_Course2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "GolfCourse" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -115.180408662595966, 36.085855136826304 ], [ -115.173001873100418, 36.086014178572881 ], [ -115.172742547774988, 36.074716839359645 ], [ -115.175122968995936, 36.074722921412231 ], [ -115.180178814909439, 36.076460612084958 ], [ -115.180408662595966, 36.085855136826304 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ ] } }
+]
+}
