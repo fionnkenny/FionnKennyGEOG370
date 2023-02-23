@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Terminal",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::26911" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "Airport Terminal" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 667382.932561990921386, 3994830.650920911226422 ], [ 667990.244233223493211, 3994856.57276053680107 ], [ 668005.05671300960239, 3994334.432848074939102 ], [ 667390.338801884092391, 3994327.026608181651682 ], [ 667382.932561990921386, 3994830.650920911226422 ] ] ] ] } }
+]
+}
