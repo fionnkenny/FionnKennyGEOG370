@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing Analysis</h1>
+    <h2>Fionn Kenny</h2>
+    <a href="./HW_8(1).png">
+        <img src="./HW_8(1).png" alt="my map" width="500px">
+
+    </a>
+    <h3>This map intends to show the accessibility of New York City high 
+        schools through public transport. In order to do this, I decided to
+        categorize high schools by if they were within a 10 minute walk, or 
+        half a mile, of a subway stop. In order to do this, first I imported 
+        a shapefile of Subway Lines and Subway Stops in New York City. Then,
+        I imported a CSV of public high schools from the Department of Education,
+        with Longitude and Latitude information. I created an 800 meter buffer 
+        around the high schools and took the intersection of schools within the
+        buffers, shown in orange. We can see the high schools without subway 
+        access are largely in the outer boroughs, including far Queens, Brookyln,
+        and all high schools in Staten Island, which lacks a subway.
+    </h3>
+    <h2> Data used in this project:</h2>
+    <a href="https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49"> Subway Stops</a>
+    <a href="https://data.cityofnewyork.us/Education/2021-DOE-High-School-Directory/8b6c-7uty/data"> High Schools</a>
+    <a href="https://github.com/fionnkenny/FionnKennyGEOG370/blob/main/HW%208/Buffered(2).geojson"> Buffer Data</a>
+    <a href="https://github.com/fionnkenny/FionnKennyGEOG370/blob/main/HW%208/Intersection(2).geojson"> Intersection Data</a>
+</body>
+</html>
